@@ -80,6 +80,7 @@ button.focus {
   animation: rotation 1s linear infinite;
   margin: 0 auto;
 }
+
 .loader::after {
   content: '';
   box-sizing: border-box;

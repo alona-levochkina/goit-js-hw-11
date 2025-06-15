@@ -54,8 +54,8 @@ export function createGallery(images) {
   if (!lightbox) {
     lightbox = new SimpleLightbox('.gallery a', {
       captionsData: 'alt',
-        captionDelay: 250,
-        close: true
+      captionDelay: 250,
+      close: true,
     });
   } else {
     lightbox.refresh();
